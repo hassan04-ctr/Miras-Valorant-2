@@ -1,0 +1,169 @@
+
+
+improved_html_code = """
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Blog sobre las mejores miras de Valorant recomendadas por un jugador veterano. Mejora tu puntería y sube de rango con estas configuraciones." />
+  <meta name="keywords" content="Valorant, miras, configuración, jugadores profesionales, crosshair, consejos" />
+  <meta name="author" content="JugadorDiamante" />
+  <title>Miras Profesionales Valorant | Recomendadas por Jugador Diamante</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', serif;
+      font-size: 13px;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 960px;
+      background: #fff;
+      padding: 40px;
+      margin: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 28px;
+      color: #111;
+      text-align: center;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 30px;
+      color: #333;
+    }
+    h3 {
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    .mira-section {
+      background-color: #fafafa;
+      padding: 15px;
+      margin-bottom: 25px;
+      border-left: 4px solid #333;
+      border-radius: 5px;
+    }
+    .mira-codigo {
+      background-color: #eee;
+      padding: 8px 10px;
+      font-family: monospace;
+      display: inline-block;
+      max-width: 75%;
+      overflow-x: auto;
+      margin-right: 10px;
+    }
+    .copy-btn {
+      display: inline-block;
+      padding: 6px 10px;
+      font-size: 12px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .img-preview {
+      margin: 10px 0;
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>¿Y si el problema no eres tú, sino la mira que usas?</h1>
+    <p>Después de 4 años jugando Valorant, y habiendo llegado hasta el rango <strong>Diamante</strong>, entendí que uno de los factores más ignorados pero decisivos es la <strong>mira</strong>. Aquí te comparto las miras que más me han funcionado, incluyendo una que personalmente me ayudó a salir de los rangos más bajos.</p>
+
+    <h2>Consejos importantes sobre la configuración de mira</h2>
+    <ul>
+      <li>La mira es parte de tu puntería. Encuentra una que no te estorbe y te permita ver bien al enemigo.</li>
+      <li>No cambies de mira constantemente. La memoria muscular necesita repetición y constancia.</li>
+      <li>Prueba diferentes estilos en el campo de tiro antes de usarlos en partidas.</li>
+      <li>Adapta tu mira a tu rol. No es lo mismo jugar como Jett que como Killjoy.</li>
+    </ul>
+
+    <h2>Miras de Jugadores Profesionales</h2>
+
+    <div class="mira-section">
+      <h3>Asuna (recomendada para salir de rangos bajos)</h3>
+      <p>Una mira clara, con buen contraste y sin distracciones.</p>
+      <img src="https://i.imgur.com/ZRZohRi.png" alt="Mira de Asuna en juego" class="img-preview" />
+      <code class="mira-codigo" id="mira6">0;P;c;1;o;1;d;1;z;3;a;1;m;1;f;0</code>
+      <button class="copy-btn" onclick="copyCode('mira6')">Copiar</button>
+    </div>
+
+    <div class="mira-section">
+      <h3>TenZ</h3>
+      <p>Minimalista y efectiva. Ideal para duelistas.</p>
+      <img src="https://i.imgur.com/YzF9Zxi.png" alt="Mira de TenZ en juego" class="img-preview" />
+      <code class="mira-codigo" id="mira1">0;P;c;5;o;1;d;1;z;1;a;1;m;1;0b;0;1b;0</code>
+      <button class="copy-btn" onclick="copyCode('mira1')">Copiar</button>
+    </div>
+
+    <div class="mira-section">
+      <h3>ScreaM</h3>
+      <p>Precisión pura para quienes confían en su aim.</p>
+      <code class="mira-codigo" id="mira2">0;P;o;0;d;1;z;3;a;1;f;0;0t;4;0l;0</code>
+      <button class="copy-btn" onclick="copyCode('mira2')">Copiar</button>
+    </div>
+
+    <div class="mira-section">
+      <h3>Derke</h3>
+      <p>Pequeña y clara. Ideal para sentinelas y controladores.</p>
+      <code class="mira-codigo" id="mira3">0;P;c;7;o;0.5;d;1;z;2;a;1;f;0</code>
+      <button class="copy-btn" onclick="copyCode('mira3')">Copiar</button>
+    </div>
+
+    <div class="mira-section">
+      <h3>aspas</h3>
+      <p>Balance perfecto entre visibilidad y precisión.</p>
+      <code class="mira-codigo" id="mira4">0;P;c;4;o;0;d;1;z;1;a;1;f;0;0t;5;0l;0</code>
+      <button class="copy-btn" onclick="copyCode('mira4')">Copiar</button>
+    </div>
+
+    <div class="mira-section">
+      <h3>yay</h3>
+      <p>Favorita entre francotiradores. Simple y precisa.</p>
+      <code class="mira-codigo" id="mira5">0;P;c;1;o;0.4;d;1;z;1;a;1;m;1;f;0</code>
+      <button class="copy-btn" onclick="copyCode('mira5')">Copiar</button>
+    </div>
+
+    <footer>
+      &copy; 2025 MiraPro | Blog de miras para Valorant
+    </footer>
+  </div>
+
+  <script>
+    function copyCode(id) {
+      const code = document.getElementById(id).innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        alert("Código copiado al portapapeles");
+      });
+    }
+  </script>
+</body>
+</html>
+"""
+
+# Guardar y empaquetar
+improved_html_path = "/mnt/data/index.html"
+with open(improved_html_path, "w", encoding="utf-8") as file:
+    file.write(improved_html_code)
+
+zip_path_updated = "/mnt/data/mira_valorant_blog_v2.zip"
+with ZipFile(zip_path_updated, "w") as zipf:
+    zipf.write(improved_html_path, arcname="index.html")
+
+zip_path_updated
